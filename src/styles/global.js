@@ -12,44 +12,7 @@ const GlobalStyle = createGlobalStyle`
     height: 100%;
     overflow: hidden;
   }
-
-  .ScrollbarsCustom {
-          /* height: 100%; */
-          transition: all 0.5s ease;
-
-          .ScrollbarsCustom-Wrapper {
-            right: 5px !important;
-            bottom: 0 !important;
-          }
-
-          .ScrollbarsCustom-Content {
-            height: 100%;
-            width: 100%;
-          }
-
-          .ScrollbarsCustom-Track {
-            /* background-color: rgba(105, 189, 53, 0.3) !important; */
-            background-color: #69bd3566 !important;
-          }
-
-          .ScrollbarsCustom-Thumb {
-            background-color: #69bd35 !important;
-          }
-
-          .ScrollbarsCustom-TrackY {
-            height: 100% !important;
-            width: 5px !important;
-            top: 0 !important;
-          }
-
-          .ScrollbarsCustom-TrackX {
-            height: 5px !important;
-            width: 100% !important;
-            left: 0 !important;
-            display:none;
-          }
-  }
-
+  
   body {
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
