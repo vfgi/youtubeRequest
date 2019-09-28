@@ -1,3 +1,9 @@
 import { combineReducers } from 'redux'
 
-export default combineReducers({})
+import list from './getList'
+import video from './getVideo'
+
+export default combineReducers({
+  list,
+  video
+})

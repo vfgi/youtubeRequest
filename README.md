@@ -1,4 +1,4 @@
-This project is the very begnning structure to a react + redux-saga with reactotron and styled-components dependencies
+This project is the example of a youtube API request showing the list of videos ina infinite scroll and redirect to another page with the content of the clicked video
 
 ## Available Scripts
 
@@ -14,7 +14,6 @@ Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
 
 ### Reactotron dependency
 
@@ -23,6 +22,6 @@ see https://github.com/infinitered/reactotron for more info
 
 ### styled-components dependency
 
-Lets you change css with props and many other cool stufs
+Allow you to change css with props and many other cool stufs using SASS style
 
 see https://www.styled-components.com/ for more info
